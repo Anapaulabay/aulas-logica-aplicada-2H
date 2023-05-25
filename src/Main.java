@@ -12,8 +12,15 @@ public class Main {
          qualquer.sobrenome = "lee";
          qualquer.falar();
         System.out.println(qualquer.falar("oi"));
-
-
-
+        // Criar novos objetos
+        Pessoa rainha;
+        // instanciar objetos
+         rainha = new Pessoa();
+         // definir forma do objeto
+        rainha.nome = "tina";
+        rainha.sobrenome = "tunner";
+        //definir do comportamento
+        rainha.falar();
+        rainha.comer();
     }
 }
